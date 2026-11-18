@@ -1,53 +1,45 @@
-# Bonjour, je suis Daniel Nganjip 👋
+# Bonjour, je suis Daniel Nganjip Mbiada 👋
 
-Développeur passionné par l'**Internet des objets (IoT)** et le **développement web**. J'aime construire des projets de bout en bout : du capteur branché sur une carte Arduino ou ESP32, jusqu'au serveur qui reçoit et stocke les données, puis au site web qui les affiche.
+Ingénieur en génie informatique, aujourd'hui étudiant à la **maîtrise en analyse et ingénierie des données (M.Ing.) à Polytechnique Montréal**. Je relie trois domaines : les **objets connectés**, l'**ingénierie des données** et l'**intelligence artificielle**, du capteur jusqu'au tableau de bord.
 
-## 🛠️ Technologies
+🔍 **Je recherche un stage en ingénierie des données.**
 
-**Langages**
+## 🎓 Formation
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+- **M.Ing. Analyse et ingénierie des données** — Polytechnique Montréal *(en cours)*
+- **DEC en Internet des objets** — CCNB, Bathurst (N.-B.)
+- **Diplôme d'ingénieur en Télécommunications et TIC, option Génie informatique** — ENSP Douala, Cameroun (2021)
 
-**Web et données**
+## 🛠️ Compétences
 
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-![Django REST](https://img.shields.io/badge/Django_REST-A30000?style=flat&logo=django&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-
-**IoT**
-
-![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat&logo=arduino&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white)
-![PlatformIO](https://img.shields.io/badge/PlatformIO-F5822A?style=flat&logo=platformio&logoColor=white)
+**Langages** : Python · Java · C · C++ · JavaScript · SQL  
+**Données et IA** : Pandas · Apache Spark · règles d'association et motifs fréquents · RAG · Ollama · ChromaDB  
+**Web et back-end** : Django · Django REST Framework · React · Vue.js · gRPC  
+**IoT** : Arduino · ESP32 · MQTT · AWS IoT · WebSocket · ThingsBoard · PlatformIO  
+**Bases de données et outils** : PostgreSQL · SQLite · Git · Docker
 
 ## 🚀 Projets
 
 ### 🌦️ Station météo connectée
-Chaîne complète de collecte de données météo : les mesures de température et d'humidité sont publiées en MQTT, enregistrées dans PostgreSQL par un serveur Java, puis affichées en temps réel sur un site Django.
-
-[ServeurJava](https://github.com/EdNganji/ServeurJava) · [ServeurJavaDjango](https://github.com/EdNganji/ServeurJavaDjango)
-`Java` `MQTT` `PostgreSQL` `Django`
+Mesures publiées en MQTT, enregistrées dans PostgreSQL par un serveur Java, puis affichées en temps réel sur un site Django.  
+→ [ServeurJava](https://github.com/EdNganji/ServeurJava) · [ServeurJavaDjango](https://github.com/EdNganji/ServeurJavaDjango)
 
 ### 👟 SkStore — boutique de sneakers
-Site e-commerce en Django (accueil, vitrine, fiches produits) accompagné d'une API REST qui expose les marques, les articles et les stocks.
-
-[Skstore](https://github.com/EdNganji/Skstore) · [Serveur-Django-rest](https://github.com/EdNganji/Serveur-Django-rest) · [Appli-web](https://github.com/EdNganji/Appli-web)
-`Django` `Django REST Framework` `Bootstrap`
+Site e-commerce Django avec une API REST pour les marques, les articles et les stocks.  
+→ [Skstore](https://github.com/EdNganji/Skstore) · [Serveur-Django-rest](https://github.com/EdNganji/Serveur-Django-rest) · [Appli-web](https://github.com/EdNganji/Appli-web)
 
 ### 📡 Objets connectés
-- [Projet-AIIA](https://github.com/EdNganji/Projet-AIIA) — capteur de luminosité sur Arduino MKR1000, données envoyées à ThingsBoard en MQTT.
-- [ProjetData](https://github.com/EdNganji/ProjetData) — moniteur de fréquence cardiaque sur ESP32, données enregistrées dans PostgreSQL.
-- [ProjetIot](https://github.com/EdNganji/ProjetIot) — application Java de gestion d'un parc d'appareils connectés (JDBC + PostgreSQL).
+- [Projet-AIIA](https://github.com/EdNganji/Projet-AIIA) — capteur de luminosité MKR1000 relié à ThingsBoard par MQTT
+- [ProjetData](https://github.com/EdNganji/ProjetData) — moniteur cardiaque ESP32 relié à PostgreSQL
+- [ProjetIot](https://github.com/EdNganji/ProjetIot) — gestion d'un parc d'appareils en Java (JDBC)
 
-## 🌱 En ce moment
+### 🤖 En cours : assistant RAG
+Assistant conversationnel avec interface Django, gestion de sessions, embeddings locaux (bge-m3) et modèle de langage local via Ollama.
 
-- J'approfondis le développement back-end et les architectures IoT.
-- J'améliore la documentation et l'organisation de mes projets.
+## 🎯 Intérêts
+
+Ingénierie des données · Big Data · Intelligence artificielle · Systèmes répartis et infonuagique
+
+## 📫 Me joindre
+
+✉️ [danielnganjip@gmail.com](mailto:danielnganjip@gmail.com)
